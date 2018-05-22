@@ -82,6 +82,40 @@ div.body
 	color:white;
 
 }
+div.body2
+{
+   border:2px solid black;
+    width: 1000px;
+    height: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5d5e60;
+    text-align: center;
+    color:white; 
+}
+div.body3
+{
+   border:2px solid black;
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5d5e60;
+    text-align: center;
+    color:white; 
+}
+div.body4
+{
+   border:2px solid black;
+    width: 1000px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5d5e60;
+    text-align: center;
+    color:white; 
+    margin-bottom: 10px;
+}
 div.gWgif
 {
 
