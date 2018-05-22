@@ -1,0 +1,259 @@
+#logo
+{
+ width: 750px;
+ height: auto;
+
+}
+
+.bg { 
+
+    background-color: #c1c1c1;
+}
+
+img.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    margin-bottom: 100px;
+    
+}
+img.slides
+{
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+    
+}
+
+div.infoH2Move
+{  
+    margin-top: 10px;
+     margin-bottom: 30px;
+    border:2px solid black;
+    width:200px;
+    height:70px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5d5e60;
+    text-align: center;
+    color:white;
+
+}
+#vidMove
+{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+div.infoH4Move
+{   
+    border:2px solid black;
+    width:200px;
+    height:40px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #5d5e60;
+    text-align: center;
+    color:white;
+
+}
+div.hello
+{
+    background: #5d5e60;
+}
+div.body
+{
+
+	border:2px solid black;
+	width: 1000px;
+	height: 200px;
+	margin-left: auto;
+    margin-right: auto;
+	background: #5d5e60;
+	text-align: center;
+	color:white;
+
+}
+div.gWgif
+{
+
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+padding-top: 10px;
+
+
+}
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 150px;
+    left: 15px;
+    background: #5d5e60;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #eee;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #DD4638;
+    background: #5d5e60;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.testing
+{
+    font-family: melting;
+    font-size: 100px;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.moveh4About
+{
+margin-left: auto;
+margin-right: auto;
+
+}
+.moveDivAbout
+{
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 55px;
+    text-align: center;
+    display: block;
+}
+.moveHeadersAbout
+{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+text-align:center;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/7 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.numbertext-B {
+  color: #000000;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+@font-face {
+font-family: "melting";
+src: url(fonts/pieces_nfi.otf) format('opentype');
+}
+
